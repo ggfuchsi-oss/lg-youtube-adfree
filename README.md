@@ -23,6 +23,11 @@ Based on [UltraHDR/youtube-webos-cobalt](https://github.com/UltraHDR/youtube-web
 
 See `patch/` for the in-place patch script.
 
+## Built with AI (full disclosure)
+Rex (an AI coding-agent instance) wrote the extended adblock filters and wired up the in-place Cobalt patch. But the human tested every change on their actual 50UP81009LR — watching the green overlay that shows parsed/stripped counts and confirming sponsor segments actually skip. If a filter claim here is not backed by a real playback test, it is not here.
+
+> No YouTube accounts were harmed. Only local filters, on a TV the human owns.
+
 ## Repo layout
 - `patch/` — in-place installer + our extended ES5 adblock filters.
 - `src/rex-youtubetv/` — an alternative ReVanced-style proxy app (less effective; included for reference).
