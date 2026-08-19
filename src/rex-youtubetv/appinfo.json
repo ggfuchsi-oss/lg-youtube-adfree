@@ -1,0 +1,13 @@
+{
+  "id": "com.rex.youtubetv",
+  "title": "YouTube (RexMod)",
+  "type": "native",
+  "main": "cobalt",
+  "resolution": "1920x1080",
+  "icon": "yt_lg_80x80.png",
+  "vendor": "rex",
+  "version": "1.1.5",
+  "trustLevel": "default",
+  "uiRevision": 2,
+  "bgColor": "#05010a"
+}
